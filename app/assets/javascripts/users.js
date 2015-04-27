@@ -38,7 +38,6 @@ var ready = function () {
         chatBox.close(id);
     });
 
-
     /**
      * Listen on keypress' in our chat textarea and call the
      * chatInputKey in chat.js for inspection
@@ -50,15 +49,12 @@ var ready = function () {
         chatBox.checkInputKey(event, $(this), id);
     });
 
-
     $(document).on('click','.send-button', function(event) {
 
       event.preventDefault();
       var id = $(this).data('cid');
       chatBox.sendButtonClick($('.chatboxtextarea'),id);
     });
-
-
 
     /**
      * When a conversation link is clicked show up the respective
@@ -71,7 +67,6 @@ var ready = function () {
         var conversation_id = $(this).data('cid');
         chatBox.chatWith(conversation_id);
     });
-
 
 }
 

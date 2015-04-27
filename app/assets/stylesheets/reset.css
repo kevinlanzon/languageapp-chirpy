@@ -7,23 +7,24 @@ html[xmlns] .clearfix { display: block;}
 * html .clearfix{ height: 1%;}
 .clearfix {display: block}
 
-a:link,a:visited,a:hover,a:focus{
+a:link,a:visited,a:hover,a:focus {
   color: initial;
   text-decoration: none;
   cursor: pointer;
 }
 
-.float-left{
+.float-left {
   float: left;
 }
 
-.float-right{
+.float-right {
   float: right;
 }
 
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }

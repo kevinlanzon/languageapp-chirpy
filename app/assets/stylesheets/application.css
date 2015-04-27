@@ -1,126 +1,100 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require reset
- *= require grid
- *= require pf
- *= require_self
-
- */
-
 @import url(https://fonts.googleapis.com/css?family=Comfortaa);
 
-
-
-html{
+html {
   background-color: #BAF8FF;
   background: url('sky.png') no-repeat center center fixed;
-    background-color: #BAF8FF;
+  background-color: #BAF8FF;
   font-size: 70%;
   background-position: left;
-  /*background-size: cover;*/
   -webkit-animation: sky 90s linear infinite;
   background-repeat: no-repeat;
 }
 
-select{
+select {
   width: 20%;
 }
 
-
-
-.panel-heading{
-
-
+.panel-heading {
     z-index: 10;
 }
 
-.flags{
+.flags {
   -webkit-transition: all .5s; /* Safari */
   transition: all .5s;
 }
 
-.flags:hover{
+.flags:hover {
   -webkit-transform: scale3d(1.1,1.1,1.1);
 }
 
 a:link,
-a:visited{
+a:visited {
   text-decoration: none;
   color: inherit;
 }
 
-body{
+body {
   font-family: 'Fredoka One', cursive;
   background-color: none;
 }
 
-main.home-page{
+main.home-page {
   font-family: 'Comfortaa', cursive;
   color: #41280b;
   text-align: center;
 }
-main.home-page h1{
+
+main.home-page h1 {
   margin-top: 0;
   color: #41280b;
-    font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', cursive;
   margin-bottom: 50px;
 }
 
-main.home-page h2{
-
+main.home-page h2 {
   color: #00A09D
 }
 
 input[type="checkbox"]:not(:checked),
-input[type="checkbox"]:checked{
+input[type="checkbox"]:checked {
   display: inline-block;
   position: static;
   left: 0;
   display: none;
 }
 
-h1{
+h1 {
   font-size: 50px;
   font-size: 5rem;
   margin: 20px;
   color: #41280b;
 }
-h2{
+
+h2 {
   font-size: 40px;
   font-size: 4rem;
   margin: 20px;
   color: #41280b;
 }
 
-h3{
+h3 {
   font-size: 30px;
   font-size: 3rem;
   margin: 20px;
 }
 
-main section{
+main section {
   width: 20%;
   float: left;
   display: inline-block;
   margin-top: 30px;
 }
 
-header{
+header {
   padding: 20px;
 }
 
-header h2{
+header h2 {
   color: #fff;
   text-shadow: 2px 2px 2px #41280b;
   text-transform: uppercase;
@@ -129,14 +103,14 @@ header h2{
   font-size: 3rem;
 }
 
-header h2 a{
+header h2 a {
   background-image: url('logo.png');
   background-size: 85px 80px;
   background-repeat: no-repeat;
   padding-left: 80px;
 }
 
-header section{
+header section {
   float: right;
   text-align: right;
   color: #00a09d;
@@ -144,15 +118,15 @@ header section{
   font-size: 1.8rem;
 }
 
-header .profile-picture{
-  width: 10%;  
+header .profile-picture {
+  width: 10%;
 }
 
-header a{
+header a {
   padding: 20px;
 }
 
-.container .row.signup-main{
+.container .row.signup-main {
   width: 50%;
   margin: 0 auto;
 }
@@ -167,7 +141,8 @@ input[type=password]{
   box-sizing: border-box;
   color: #000;
 }
-.chirpy-form label{
+
+.chirpy-form label {
   position: static;
   text-transform: uppercase;
   font-family: 'Comfortaa', cursive;
@@ -177,12 +152,12 @@ input[type=password]{
   font-size: 1.5rem;
 }
 
-input[type=submit]{
+input[type=submit] {
   display: inline;
   color: #41280b;
 }
 
-#devise-shared{
+#devise-shared {
   text-align: right;
   position: absolute;
   bottom: 0;
@@ -190,27 +165,28 @@ input[type=submit]{
   padding: 20px;
   color: #41280b;
 }
-.btn{
+
+.btn {
   margin-top: 10px;
 }
 
-.chirpy-form{
+.chirpy-form {
   padding: 20px;
 }
 
-.chirpy-form h2{
+.chirpy-form h2 {
   text-align: center;
 }
 
-.chatboxhead{
+.chatboxhead {
   height: 4rem;
 }
 
-.chatboxtitle h1{
+.chatboxtitle h1 {
   font-size: 1.5rem;
 }
 
-.form-page{
+.form-page {
   background-color: #fff;
   background-size: cover;
   width: 50%;
@@ -220,24 +196,24 @@ input[type=submit]{
   box-shadow:         1px 1px 17px 0px rgba(65, 40, 11, 0.75);
 }
 
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   background-color: #acacac;
 }
 
-#show-row{
+#show-row {
   height: 80%;
 }
 
-#show-row h2{
+#show-row h2 {
   color: #41280b;
 }
 
-.user-lang-flag{
+.user-lang-flag {
   width: 10%;
 }
 
-#main-app{
-    -webkit-box-shadow: 1px 1px 17px 0px rgba(65, 40, 11, 0.75);
+#main-app {
+  -webkit-box-shadow: 1px 1px 17px 0px rgba(65, 40, 11, 0.75);
   -moz-box-shadow:    1px 1px 17px 0px rgba(65, 40, 11, 0.75);
   box-shadow:         1px 1px 17px 0px rgba(65, 40, 11, 0.75);
   background-color: #F7F6F0;
@@ -245,38 +221,38 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{
   margin-bottom: 3rem;
 }
 
-table.striped tbody tr:nth-child(odd){
+table.striped tbody tr:nth-child(odd) {
   background-color: #F2F0E6;
 }
 
-#main-app label{
+#main-app label {
   display: block;
 }
 
-img.user-lang-flag{
+img.user-lang-flag {
   padding-left: 10px;
 }
 
-table.striped label{
+table.striped label {
   font-size: 2rem;
     color: #41280b;
     padding: 10px;
 }
 
-table.striped tr{
+table.striped tr {
   padding: 10px;
 }
 
-#main-app table td{
+#main-app table td {
   padding: 20px;
 }
 
-td img.user-lang-flag{
+td img.user-lang-flag {
   width: 30%;
   padding-left: 10px;
 }
 
-#main-app h4{
+#main-app h4 {
   font-size: 2rem;
   color: #00a09d;
     font-family: 'Comfortaa', cursive;
@@ -284,7 +260,7 @@ td img.user-lang-flag{
 }
 
 
-@-webkit-keyframes sky{
+@-webkit-keyframes sky {
   0%{
     background-position: left;
   }
@@ -297,76 +273,90 @@ td img.user-lang-flag{
 }
 
 
-@media (max-width: 1000px){
-  .container .row.signup-main{
+@media (max-width: 1000px) {
+  .container .row.signup-main {
     width: 80%;
     margin: 0 auto;
   }
 }
 
-
-@media (max-width: 600px){
+@media (max-width: 600px) {
   html{
     font-size: 50%;
   }
+
   header section {
     width: 100%;
     margin-top: 20px;
     text-align: center;
   }
-  header.row{
+
+  header.row {
     margin-bottom: 0;
   }
-  main section{
+
+  main section {
     width: 100%;
   }
-  .container{
+
+  .container {
     width: 100%;
     padding: 0;
     border-top: 1px black;
   }
-  h1.login-center{
+
+  h1.login-center {
     margin-top: 0;
   }
-  h2{
+
+  h2 {
     width: 100%;
     text-align: center;
   }
-  main.signup-main{
+
+  main.signup-main {
     height: 100%;
     box-shadow: none;
     background: none;
   }
-  #devise-shared{
+
+  #devise-shared {
     width: 100%;
     display: block;
     position: static;
     text-align: center;
   }
-  .btn{
+
+  .btn {
     position: relative;
   }
-  .forgot_password{
+
+  .forgot_password {
     float: none;
     text-align: center;
   }
-  a:link{
+
+  a:link {
     color: #41280b;
-  }
-  a:visited{
-    color: #41280b;
-  }
-  .chirpy-form{
-    margin-top: 30px;
-  }
-  main.home-page{
-    padding: 0;
-  }
-  #logo-h2{
-    color: #fff;
-  }
-  .flags{
-    margin-top: 2rem;
   }
 
+  a:visited {
+    color: #41280b;
+  }
+
+  .chirpy-form {
+    margin-top: 30px;
+  }
+
+  main.home-page {
+    padding: 0;
+  }
+
+  #logo-h2 {
+    color: #fff;
+  }
+
+  .flags {
+    margin-top: 2rem;
+  }
 }

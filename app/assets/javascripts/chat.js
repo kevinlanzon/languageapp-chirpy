@@ -7,7 +7,6 @@
  *
  */
 
-
 var chatboxFocus = [];
 var chatBoxes = [];
 
@@ -327,7 +326,6 @@ var ready = function () {
             return cookieValue;
         }
     };
-
 
 };
 
