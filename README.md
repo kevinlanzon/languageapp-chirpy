@@ -20,7 +20,7 @@ Technologies used
 Screenshot
 ---
 <div align="center">
-        <img width="50%" src="/app/assets/images/chirpy_homepage.png">
+        <img width="70%" src="/app/assets/images/chirpy_homepage.png">
 
 </div>
 
