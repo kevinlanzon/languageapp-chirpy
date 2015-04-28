@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/kevinlanzon/languageapp-chirpy.svg?branch=master)](https://travis-ci.org/kevinlanzon/languageapp-chirpy)
 Chirpy
 ==========
 [Makers Academy](http://www.makersacademy.com) Final Project.
