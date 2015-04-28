@@ -30,6 +30,18 @@ Heroku (live)
 
 [Chirpy](https://chirpy-lang.herokuapp.com/)
 
+Features
+--------
+
+- Instant chat messaging to other users using websockets technology
+- Internationalisation: click on a country flag on the homepage and all webpages will then be translated into that language. This will also persist on future logins.
+- AngularJS used to filter users by target language
+- Ability to display only online users
+- Authentification during the sign-up process
+- CSS animation used for background "moving clouds"
+
+[postscript - the profiles controller is still rather "fat" and will therefore be subject to further refactoring in the near future (JN, 23/4/15)]
+
 How to clone this repo
 ----
 ```sh
@@ -49,3 +61,10 @@ How to run tests
 ```sh
 run rspec
 ```
+
+collaborators
+----
+[Joe Newman](https://github.com/jjnewman)
+[Julian Veling](https://github.com/veliancreate)
+[Paul Fitzgerald](https://github.com/Pau1fitz)
+[Erik Griffn](https://github.com/ErikAGriffin)
