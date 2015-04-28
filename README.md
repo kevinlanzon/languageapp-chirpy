@@ -34,7 +34,7 @@ Features
 --------
 
 - Instant chat messaging to other users using websockets technology
-- Internationalisation: click on a country flag on the homepage and all webpages will then be translated into that language. This will also persist on future logins.
+- Internationalisation: click on a country flag on the homepage and all webpages will then be translated into that language. This will also persist on future logins
 - AngularJS used to filter users by target language
 - Ability to display only online users
 - Authentification during the sign-up process
