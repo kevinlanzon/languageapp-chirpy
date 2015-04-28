@@ -64,7 +64,7 @@ run rspec
 
 collaborators
 ----
-[Joe Newman](https://github.com/jjnewman)
-[Julian Veling](https://github.com/veliancreate)
-[Paul Fitzgerald](https://github.com/Pau1fitz)
-[Erik Griffn](https://github.com/ErikAGriffin)
+- [Joe Newman](https://github.com/jjnewman)
+- [Julian Veling](https://github.com/veliancreate)
+- [Paul Fitzgerald](https://github.com/Pau1fitz)
+- [Erik Griffn](https://github.com/ErikAGriffin)
