@@ -3,7 +3,6 @@ Rails.application.configure do
 
   # config.active_record.logger = nil
   config.log_level = :fatal
-
   # The test environment is used exclusively to run your application's
   # test suite. You never need to work with it otherwise. Remember that
   # your test database is "scratch space" for the test suite and is wiped
