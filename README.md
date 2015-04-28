@@ -24,6 +24,10 @@ Screenshot
         <img width="70%" src="/app/assets/images/chirpy_homepage.png">
 
 </div>
+Heroku (live)
+-----
+
+[Chirpy](https://chirpy-lang.herokuapp.com/)
 
 How to clone this repo
 ----
