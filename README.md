@@ -13,6 +13,7 @@ Technologies used
 - AngularJS
 - RSpec
 - Protractor
+- FactoryGirl
 - Websockets
 - HTML
 - CSS
