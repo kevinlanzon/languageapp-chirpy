@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/languageapp/chirpy/badges/gpa.svg)](https://codeclimate.com/github/languageapp/chirpy)
 [![Build Status](https://travis-ci.org/kevinlanzon/languageapp-chirpy.svg?branch=master)](https://travis-ci.org/kevinlanzon/languageapp-chirpy)
 Chirpy
 ==========
