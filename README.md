@@ -17,6 +17,7 @@ Technologies used
 - Protractor
 - FactoryGirl
 - Websockets
+- AWS S3
 - HTML
 - CSS
 
