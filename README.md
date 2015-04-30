@@ -41,7 +41,7 @@ Features
 - Authentification during the sign-up process
 - CSS animation used for background "moving clouds"
 
-[postscript - the profiles controller is still rather "fat" and will therefore be subject to further refactoring in the near future (JN, 23/4/15)]
+*[postscript - the profiles controller is still rather "fat" and will therefore be subject to further refactoring in the near future (JN, 23/4/15)]*
 
 How to clone this repo
 ----
@@ -66,6 +66,7 @@ run rspec
 collaborators
 ----
 - [Joe Newman](https://github.com/jjnewman)
+- [Kevin Lanzon](https://github.com/kevinlanzon)
 - [Julian Veling](https://github.com/veliancreate)
 - [Paul Fitzgerald](https://github.com/Pau1fitz)
 - [Erik Griffn](https://github.com/ErikAGriffin)
